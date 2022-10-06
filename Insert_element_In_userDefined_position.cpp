@@ -26,6 +26,8 @@ int main(){
     cout<<"Enter Element you want to insert: ";
     cin>>element;
     sizeOfArray+=1;         //SizeOfArray=sizeOfArray+1;
+    
+    //Shifting Element after user defined position//
     for(int i=sizeOfArray;i>position;i--){
         array[i]=array[i-1];
     }
