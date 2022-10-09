@@ -146,3 +146,22 @@ int main(){
     }
     return 0;
 }*/
+
+            /* Draw the patern  XOXOXOXO
+                                OXOXOXOX*/
+
+/*#include<iostream>
+using namespace std;
+int main(){
+    for(int column=0;column<8;column++){
+        for(int row=0;row<8;row++){
+            if((column+row)%2==0){
+                cout<<"X";
+            }
+            else{
+                cout<<"O";
+            }
+        }
+        cout<<endl;
+    }
+}*/
