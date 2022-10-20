@@ -138,6 +138,7 @@ int main(){
             A_T[c][r]=array[r][c];
         }
     }
+    cout<<"After Transpose:"<<endl;
     for(int r=0;r<4;r++){
         for(int c=0;c<5;c++){
             cout<<A_T[r][c]<<" ";
