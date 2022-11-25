@@ -3,7 +3,7 @@ using namespace std;
 class Stack{
     int top;
     int maxLength;
-    int array[5];
+    int stack[5];
     
     public:
     Stack(){
@@ -20,7 +20,7 @@ class Stack{
     }
     void getTop(){
         if(top>0){
-            cout<<"Top Element: "<<array[top-1]<<endl;
+            cout<<"Top Element: "<<stack[top-1]<<endl;
         }
         else{
             cout<<"stack Empty"<<endl;
@@ -28,7 +28,7 @@ class Stack{
     }
     void push(int value){
         if(top<maxLength){
-            array[top]=value;
+            stack[top]=value;
             top++;
         }
         else{
@@ -37,7 +37,7 @@ class Stack{
     }
     void print(){
         for(int i=0;i<top;i++){
-            cout<<array[i]<<"\t";
+            cout<<stack[i]<<"\t";
         }
         cout<<endl;
     }
@@ -55,5 +55,7 @@ int main(){
     s.print();
     s.pop();
     s.getTop();
+
+    s.print();
 
 }
