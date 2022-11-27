@@ -1,5 +1,5 @@
                 ///Structure////
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 struct Student
 {
@@ -47,10 +47,10 @@ int main(){
     }
 
     return 0;
-}*/
+}
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 struct Book
 {
@@ -96,9 +96,9 @@ int main(){
         }
     }
     return 0;
-}*/
+}
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 struct Mobile{
     string manufacturerName;
@@ -146,9 +146,9 @@ int main(){
 
     }
     return 0;
-}*/
+}
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 struct Teacher{
     int id;
@@ -192,4 +192,4 @@ int main(){
         }
     }
     return 0;
-}*/
+}
