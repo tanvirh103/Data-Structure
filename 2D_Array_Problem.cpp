@@ -1,6 +1,7 @@
             /// 2D Array///
             //Sum of All Element//
-/*#include<iostream>
+
+#include<iostream>
 using namespace std;
 int main(){
     int array[3][3]={12,5,8,6,7,4,18,9,2};
@@ -13,9 +14,11 @@ int main(){
     }
     cout<<"Sum of All Element: "<<sum<<endl;
     return 0;
-}*/
+}
+
             //Sum of 2 array and store the result in another 2d array//
-/*#include<iostream>
+
+#include<iostream>
 using namespace std;
 int main(){
     int array1[3][3]={12,5,8,6,7,4,18,9,2};
@@ -32,9 +35,11 @@ int main(){
         }
         cout<<endl;
     }
-}*/
+}
+
                 //Sum Of boundary Element//
-/*#include<iostream>
+
+#include<iostream>
 using namespace std;
 int main(){
     int array[4][4]={12,5,8,10,6,7,4,11,18,9,2,1,20,3,15,13};
@@ -50,11 +55,11 @@ int main(){
     }
     cout<<"Sum of Boundary Element: "<<sum<<endl;
     return 0;
-}*/
+}
 
             //Even Number of 2D Array//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[4][4]={12,5,8,10,6,7,4,11,18,9,2,1,20,3,15,13};
@@ -68,11 +73,11 @@ int main(){
         }
     }
     return 0;
-}*/
+}
  
             //Print Odd Element of 2D Array//
  
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[4][4]={12,5,8,10,6,7,4,11,18,9,2,1,20,3,15,13};
@@ -86,12 +91,12 @@ int main(){
         }
     }
     return 0;
-}*/
+}
 
 
             //Sum of  non boundary Element//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[4][4]={12,5,8,10,6,7,4,11,18,9,2,1,20,3,15,13};
@@ -105,12 +110,12 @@ int main(){
     }
     cout<<"sum Of Non Boundary Element is: "<<sum<<endl;
     return 0;
-}*/
+}
 
                     //Sum of Diagonal Element//
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[5][5]={12,5,6,10,18,6,7,4,11,21,18,8,2,1,31,20,3,15,13,28,30,3,35,23,29};
@@ -124,11 +129,11 @@ int main(){
     }
     cout<<"Sum of Diagonal Element: "<<sum<<endl;
     return 0;
-}*/
+}
 
                 //Transpose matrix of a 2D array//
                 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[5][4]={12,5,8,10,6,7,4,11,18,9,2,1,20,3,15,13,30,21,35,23};
@@ -146,12 +151,12 @@ int main(){
         cout<<endl;
     }
     return 0;
-}*/
+}
 
             /* Draw the patern  XOXOXOXO
                                 OXOXOXOX*/
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     for(int column=0;column<8;column++){
@@ -165,4 +170,4 @@ int main(){
         }
         cout<<endl;
     }
-}*/
+}
