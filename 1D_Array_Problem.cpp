@@ -1,6 +1,6 @@
-                    //Small Element//
+                    //Find Small Element//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -15,10 +15,10 @@ int main(){
     cout<<"Small Element: "<<small<<endl;
     cout<<"Position of Small Element: "<<position<<endl;
     return 0;
-}*/
+}
                     //Search from 1D Array//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -36,11 +36,11 @@ int main(){
     else{
         cout<<"Item found in: "<<position<<endl;
     }
-}*/
+}
 
                     //Summation of an array//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -50,10 +50,10 @@ int main(){
     }
     cout<<"Result of Sum: "<<sum<<endl;
     return 0;
-}*/
+}
                 //Sum of Even Element//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -65,10 +65,10 @@ int main(){
     }
     cout<<"Sum of Even element: "<<sum<<endl;
     return 0;
-}*/
+}
 
                 //Sum of Even index number//
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -80,11 +80,11 @@ int main(){
     }
     cout<<"Sum of Even index number: "<<sum<<endl;
     return 0;
-}*/
+}
 
         //Count the appearance of a particular number//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,45,6,1,100,45,99};
@@ -97,13 +97,13 @@ int main(){
     }
     cout<<"The number appeare "<<count<<" Times"<<endl;
     return 0;
-}*/
+}
 
 
             //Merge two array//
             //Input from user//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int firstsize,secondsize,msize;
@@ -135,11 +135,11 @@ int main(){
         cout<<marray[l]<<" ";
     }
 
-}*/
+}
 
             //Merge array by Given array//
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array1[5]={40,30,70,90,100};
@@ -155,4 +155,4 @@ int main(){
         cout<<marray[i]<<" ";
     }
     return 0;
-}*/
+}
