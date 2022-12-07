@@ -76,11 +76,10 @@ int main(){
     q.enqueue(30);
     q.enqueue(40);
     q.enqueue(231);
-    q.enqueue(5);
+    
     
 
-    q.dequeue();
-    q.dequeue();
+   
     q.dequeue();
     q.dequeue();
     q.dequeue();
