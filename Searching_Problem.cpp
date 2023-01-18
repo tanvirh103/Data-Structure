@@ -1,6 +1,6 @@
-                /// Searching ////
+                 //Searching// 
         // Linear Search //
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int array[10]={10,15,45,20,25,6,1,100,65,99};
@@ -19,10 +19,10 @@ int main(){
         cout<<"Item Found on "<<position<<endl;
     }
     return 0;
-}*/
+}
 
         //Binary Search//
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
    
@@ -52,4 +52,4 @@ int main(){
         cout<<"Element found"<<endl;
     }
     
-}*/
+}
